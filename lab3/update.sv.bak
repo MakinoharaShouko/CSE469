@@ -1,0 +1,2 @@
+module update(res, load_res);
+endmodule

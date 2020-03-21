@@ -1,0 +1,1073 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cond3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cond3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cond3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cond3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[16]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[17]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[18]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[19]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[20]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[21]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[22]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[23]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[24]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[25]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[26]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[27]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[28]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[29]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[30]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[31]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[32]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[33]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[34]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[35]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[36]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[37]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[38]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[39]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[40]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[41]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[42]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[43]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[44]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[45]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[46]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[47]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[48]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[49]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[50]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[51]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[52]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[53]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[54]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[55]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[56]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[57]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[58]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[59]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[60]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[61]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[62]",
+					"strict" : false
+				},
+				{
+					"name" : "pc4[63]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[32]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[33]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[34]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[35]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[36]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[37]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[38]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[39]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[40]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[41]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[42]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[43]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[44]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[45]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[46]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[47]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[48]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[49]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[50]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[51]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[52]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[53]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[54]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[55]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[56]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[57]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[58]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[59]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[60]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[61]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[62]",
+					"strict" : false
+				},
+				{
+					"name" : "rm_val2[63]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[32]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[33]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[34]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[35]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[36]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[37]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[38]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[39]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[40]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[41]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[42]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[43]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[44]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[45]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[46]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[47]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[48]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[49]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[50]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[51]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[52]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[53]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[54]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[55]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[56]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[57]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[58]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[59]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[60]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[61]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[62]",
+					"strict" : false
+				},
+				{
+					"name" : "rn_val2[63]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[7]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[8]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[9]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[10]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[11]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[12]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[13]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[14]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[15]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[16]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[17]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[18]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[19]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[20]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[21]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[22]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[23]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[24]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[25]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[26]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[27]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[28]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[29]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[30]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[31]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[32]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[33]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[34]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[35]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[36]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[37]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[38]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[39]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[40]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[41]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[42]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[43]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[44]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[45]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[46]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[47]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[48]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[49]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[50]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[51]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[52]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[53]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[54]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[55]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[56]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[57]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[58]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[59]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[60]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[61]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[62]",
+					"strict" : false
+				},
+				{
+					"name" : "wr_val[63]",
+					"strict" : false
+				},
+				{
+					"name" : "N",
+					"strict" : false
+				},
+				{
+					"name" : "Z",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "V",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

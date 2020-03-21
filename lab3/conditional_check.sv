@@ -1,0 +1,51 @@
+module conditional_check(clk, stop, inst, N, Z, C, V, cond_res, cond);
+	input logic [31:0] inst;  // instruction
+	input logic clk, stop;
+	input logic N, Z, C, V;  // conditional flags
+	output logic [3:0] cond;  // represents the conditon to meet
+	output logic cond_res;  // the result whether the conditional check passes or not	
+
+	always_comb begin
+		//if (stop) begin
+		// branches, exception and system instruction
+		// conditional branch (immediate)
+		// check if the condition is met for branching
+		if (inst[28:26] == 3'b101 && inst[31:29] == 3'b010 && ~inst[24] & ~inst[4]) begin
+			cond = inst[3:0];
+			case(cond[3:1])
+				3'b000: cond_res = Z;
+				3'b001: cond_res = C;
+				3'b010: cond_res = N;
+				3'b011: cond_res = V;
+				3'b100: cond_res = C & ~Z;
+				3'b101: cond_res = N == V;
+				3'b110: cond_res = (N == V) & ~Z;
+				3'b111: cond_res = 1;
+				default: cond_res = 1'bx;
+			endcase
+			if (cond[3:1] != 3'b111 && cond[0])
+				cond_res = ~cond_res;
+		end
+		else if (inst[28] && inst[24:21] == 4'b0010 && inst[29] && ~inst[10] && ~inst[4]) begin // CMP
+			cond = inst[15:12];
+			case(cond[3:1])
+				3'b000: cond_res = inst[2];
+				3'b001: cond_res = inst[1];
+				3'b010: cond_res = inst[3];
+				3'b011: cond_res = inst[0];
+				3'b100: cond_res = inst[1] & ~inst[2];
+				3'b101: cond_res = inst[3] == inst[0];
+				3'b110: cond_res = (inst[3] == inst[0]) & ~inst[2];
+				3'b111: cond_res = 1;
+				default: cond_res = 1'bx;
+			endcase
+			if (cond[3:1] != 3'b111 && cond[0])
+				cond_res = ~cond_res;
+		end
+		else begin
+			cond = 4'bxxxx;
+			cond_res = 1'bx;
+		end
+		//end
+	end
+endmodule
