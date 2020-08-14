@@ -1,0 +1,7 @@
+module operation(rm_val, rn_val, inst, result);
+	input logic [63:0] rm_val, rn_val;
+	input logic [31:0] inst;
+	output logic [64:0] result;
+
+
+endmodule

@@ -1,0 +1,92 @@
+# Reading C:/Software/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Software/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab2 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:39:31 on Mar 01,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2" C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 15:39:31 on Mar 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab2 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:39:31 on Mar 01,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2" C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv 
+# -- Compiling module code_memory
+# 
+# Top level modules:
+# 	code_memory
+# End time: 15:39:31 on Mar 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab2 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:39:31 on Mar 01,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2" C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv 
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# End time: 15:39:31 on Mar 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab2 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:39:31 on Mar 01,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2" C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv 
+# -- Compiling module operation
+# 
+# Top level modules:
+# 	operation
+# End time: 15:39:32 on Mar 01,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab2 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:39:32 on Mar 01,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2" C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv 
+# -- Compiling module code_execution
+# -- Compiling module code_execution_testbench
+# 
+# Top level modules:
+# 	code_execution_testbench
+# End time: 15:39:32 on Mar 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.code_execution_testbench
+# vsim work.code_execution_testbench 
+# Start time: 15:39:34 on Mar 01,2020
+# Loading sv_std.std
+# Loading work.code_execution_testbench
+# Loading work.code_execution
+# Loading work.code_memory
+# Loading work.operation
+# Loading work.memory
+# Loading work.regfile
+run -all
+# rm:                     x, rn:                     x, pc:                    x, cond: xxxx, res:                     x, NZCV: xxxx
+# rm:                   114, rn:                   514, pc:                    0, cond: xxxx, res:                   628, NZCV: xxxx
+# rm:                     x, rn:                     x, pc:                    4, cond: xxxx, res:                     x, NZCV: 0000
+# rm:                     x, rn:                 -1919, pc:                   12, cond: 0000, res:                 -1919, NZCV: 0000
+# rm:                   810, rn:                    46, pc:                   16, cond: xxxx, res:                  -764, NZCV: 1000
+# rm:                  -764, rn:                     7, pc:                   20, cond: 0100, res:                     x, NZCV: 1000
+# rm:                    23, rn:                    77, pc:                   24, cond: xxxx, res:                    90, NZCV: 1000
+# rm:                     x, rn:                     x, pc:                   28, cond: 1111, res:                     x, NZCV: 1000
+# rm:                     x, rn:                    90, pc:                   36, cond: xxxx, res:                    98, NZCV: 1000
+# rm:                     x, rn:                     x, pc:                   98, cond: xxxx, res:                     x, NZCV: 1000
+# rm:                     x, rn:                     x, pc:                  102, cond: xxxx, res:                     x, NZCV: 1000
+# rm:                     x, rn:                     x, pc:                  106, cond: xxxx, res:                     x, NZCV: 1000
+# ** Note: $stop    : C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv(231)
+#    Time: 1150 ps  Iteration: 1  Instance: /code_execution_testbench
+# Break in Module code_execution_testbench at C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv line 231
+# End time: 16:24:35 on Mar 01,2020, Elapsed time: 0:45:01
+# Errors: 0, Warnings: 0

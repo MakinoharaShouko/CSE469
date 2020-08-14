@@ -1,0 +1,34 @@
+			4'bx1x0: begin //load and store
+							if (!inst[26]) begin
+								if (inst[23:22] == 2'b01) begin
+									if (inst[11:10] == 2'b11) begin  //pre-indexed
+										if (inst[31:30] == 2'b11) begin  // LDR 64bits
+											addr <= rn_val + inst[20:12];
+											wr_addr <= inst[4:0];
+											load <= 1;
+										end
+										else if (inst[31:30] == 2'b10) begin// LDR 32bits
+											addr <= rn_val[31:0] + inst[20:12];
+											wr_addr <= inst[4:0];
+											load <= 1;
+										end
+									end
+								end
+								else if (inst[23:22] == 2'b00) begin 
+									if (inst[11:10] == 2'b11) begin  //pre-indexed
+										if (inst[31:30] == 2'b11) begin  // STR 64bits
+											addr <= inst[4:0];
+											comp_result <= value_load + inst[20:12];
+											wr_addr <= inst[9:5];
+											load <= 0;
+										end
+										else if (inst[31:30] == 2'b10) begin// STR 32bits
+											addr <= inst[4:0];
+											comp_result <= value_load + inst[20:12];
+											wr_addr <= inst[9:5];
+											load <= 0;
+										end
+									end
+								end
+							end
+						end

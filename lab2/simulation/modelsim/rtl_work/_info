@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/simulation/modelsim
+vcode_execution
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1583105972
+!i10b 1
+!s100 g>g^5Q5T1^eE56=?M1dG:2
+I2WF7cf9ElIU:2U`5G6i@20
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 code_execution_sv_unit
+S1
+R0
+Z5 w1581987057
+Z6 8C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv
+Z7 FC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1583105972.000000
+Z10 !s107 C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2|C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_execution.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2}
+Z14 tCvgOpt 0
+vcode_execution_testbench
+R1
+R2
+!i10b 1
+!s100 z5L7iTe9;[]n^`QK[9UaC3
+IGejKSRJa`ka2D4UJS[m:]1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 201
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcode_memory
+R1
+Z15 !s110 1583105971
+!i10b 1
+!s100 LUze;:7^WOVWBH4[^_WC@3
+I<SRGno9h;g59ojXif0I0g2
+R3
+!s105 code_memory_sv_unit
+S1
+R0
+w1581981183
+8C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z16 !s108 1583105971.000000
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2|C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/code_memory.sv|
+!i113 1
+R12
+R13
+R14
+vmemory
+R1
+R15
+!i10b 1
+!s100 HX9B6Vg4MjZEgRZ[?Qe9J0
+IWb=Mib0Pi=YWbF5WBDT:m0
+R3
+!s105 memory_sv_unit
+S1
+R0
+w1581927547
+8C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2|C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/memory.sv|
+!i113 1
+R12
+R13
+R14
+voperation
+R1
+R2
+!i10b 1
+!s100 ]H;Q@fnODBXh:eI72igDo3
+I2:1YVAHNXH=LlLABF4b1R0
+R3
+!s105 operation_sv_unit
+S1
+R0
+w1581987024
+8C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2|C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/operation.sv|
+!i113 1
+R12
+R13
+R14
+vregfile
+R1
+R15
+!i10b 1
+!s100 3zimQcBz@d97g:^WjM7Pd1
+I?9fDoHX@KUi<ZlYD0NONW2
+R3
+!s105 regfile_sv_unit
+S1
+R0
+w1581982253
+8C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv
+FC:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2|C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab2/regfile.sv|
+!i113 1
+R12
+R13
+R14

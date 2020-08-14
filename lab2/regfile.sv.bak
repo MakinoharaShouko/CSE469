@@ -1,0 +1,10 @@
+module regfile (addr_rm, addr_rn, data_rm, data_rn);
+	input logic [4:0] addr_rm, addr_rn;
+	output logic [63:0] data_rm, data_rn;
+	logic [31:0] reg_file [63:0];
+	
+	always_comb begin
+		data_rm = reg_file[addr_rm];
+		data_rn = reg_file[addr_rn];
+	end
+endmodule

@@ -1,0 +1,7 @@
+module code_execution(clk, pc);
+	input logic clk;
+	input logic [7:0] pc;
+	logic [31:0] inst;
+	
+	code_memory cm(.address(pc), .clock(clk), .q(inst));
+endmodule

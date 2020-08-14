@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab1/ram32x64_2port.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab1/code_memory.v}
+vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab1/address_update.sv}
+vlog -sv -work work +incdir+C:/Users/Jiarong\ Qian/Documents/Course\ Materials/wi2020/ee469/lab1 {C:/Users/Jiarong Qian/Documents/Course Materials/wi2020/ee469/lab1/code_execution.sv}
+
